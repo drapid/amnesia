@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{d837c23e-9aa2-43be-83fd-56c4b3645317}</ProjectGuid>
+    <MainSource>rqAmnesia.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>D:\bin\RnQ1105\plugins\rqAmnesia.dll</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_ExeOutput>D:\UserFiles\bin\RnQ.1074\plugins</DCC_ExeOutput>
+    <DCC_UnitSearchPath>C:\Program Files\Borland\BDS\4.0\source\SynEdit\Source</DCC_UnitSearchPath>
+    <DCC_ResourcePath>C:\Program Files\Borland\BDS\4.0\source\SynEdit\Source</DCC_ResourcePath>
+    <DCC_ObjPath>C:\Program Files\Borland\BDS\4.0\source\SynEdit\Source</DCC_ObjPath>
+    <DCC_IncludePath>C:\Program Files\Borland\BDS\4.0\source\SynEdit\Source</DCC_IncludePath>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_ExeOutput>D:\bin\RnQ1105\plugins</DCC_ExeOutput>
+    <DCC_UnitSearchPath>C:\Program Files\CodeGear\RAD Studio\5.0\source\SynEdit\Source</DCC_UnitSearchPath>
+    <DCC_ResourcePath>C:\Program Files\CodeGear\RAD Studio\5.0\source\SynEdit\Source</DCC_ResourcePath>
+    <DCC_ObjPath>C:\Program Files\CodeGear\RAD Studio\5.0\source\SynEdit\Source</DCC_ObjPath>
+    <DCC_IncludePath>C:\Program Files\CodeGear\RAD Studio\5.0\source\SynEdit\Source</DCC_IncludePath>
+    <DCC_Define>DEBUG</DCC_Define>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="HostApplication">D:\bin\RnQ1105\R&amp;Q.exe</Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">False</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">0</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">1</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1049</VersionInfo><VersionInfo Name="CodePage">1251</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">rxstd</VersionInfoKeys><VersionInfoKeys Name="FileDescription">Amnesia</VersionInfoKeys><VersionInfoKeys Name="FileVersion">0.0.1.0</VersionInfoKeys><VersionInfoKeys Name="InternalName">xtAmnesia</VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">rqAmnesia.dpr</Source></Source><Excluded_Packages>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <Excluded_Packages Name="$(BDS)\bin\dcloffice2k100.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+      <Excluded_Packages Name="$(BDS)\bin\dclofficexp100.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+    </Excluded_Packages></Delphi.Personality><ModelSupport>True</ModelSupport></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="rqAmnesia.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="A" />
+    <DCCReference Include="AboutBoxUnit.pas">
+      <Form>AboutBox</Form>
+    </DCCReference>
+    <DCCReference Include="AboutBoxWndUnit.pas">
+      <Form>AboutBoxWnd</Form>
+    </DCCReference>
+    <DCCReference Include="Ad" />
+    <DCCReference Include="Add" />
+    <DCCReference Include="Addo" />
+    <DCCReference Include="Addon" />
+    <DCCReference Include="Addons" />
+    <DCCReference Include="AddonsW" />
+    <DCCReference Include="AddonsWn" />
+    <DCCReference Include="AddonsWnd" />
+    <DCCReference Include="AddonsWndU" />
+    <DCCReference Include="AddonsWndUn" />
+    <DCCReference Include="AddonsWndUni" />
+    <DCCReference Include="AddonsWndUnit">
+      <Form>AddonWnd</Form>
+    </DCCReference>
+    <DCCReference Include="AddonsWndUnit.p">
+      <Form>AddonWnd</Form>
+    </DCCReference>
+    <DCCReference Include="AddonsWndUnit.pa">
+      <Form>AddonWnd</Form>
+    </DCCReference>
+    <DCCReference Include="AddonsWndUnit.pas">
+      <Form>AddonWnd</Form>
+    </DCCReference>
+    <DCCReference Include="availableAddonsWndUnit.pas">
+      <Form>Form1</Form>
+    </DCCReference>
+    <DCCReference Include="CallExec.pas">
+      <Form> $LIBSUFFIX '_IE2'</Form>
+    </DCCReference>
+    <DCCReference Include="LogWndUnit.pas">
+      <Form>LogWnd</Form>
+    </DCCReference>
+    <DCCReference Include="xtAmnesiaAddon.pas" />
+    <DCCReference Include="xtAmnesiaFuncs.pas" />
+    <DCCReference Include="xtException.pas" />
+    <DCCReference Include="xtTimer.pas" />
+    <DCCReference Include="xtTimersManager.pas" />
+    <None Include="ModelSupport_rqAmnesia\AboutBoxUnit\default.txaPackage" />
+    <None Include="ModelSupport_rqAmnesia\AddonsWndUnit\default.txaPackage" />
+    <None Include="ModelSupport_rqAmnesia\AddonsWndUnit\default.txvpck" />
+    <None Include="ModelSupport_rqAmnesia\CallExec\default.txaPackage" />
+    <None Include="ModelSupport_rqAmnesia\CallExec\default.txvpck" />
+    <None Include="ModelSupport_rqAmnesia\default.txaPackage" />
+    <None Include="ModelSupport_rqAmnesia\default.txvpck" />
+    <None Include="ModelSupport_rqAmnesia\LogWndUnit\default.txvpck" />
+    <None Include="ModelSupport_rqAmnesia\rqAmnesia\default.txaPackage" />
+    <None Include="ModelSupport_rqAmnesia\rqAmnesia\default.txvpck" />
+    <None Include="ModelSupport_rqAmnesia\xtAmnesiaFuncs\default.txaPackage" />
+    <None Include="ModelSupport_rqAmnesia\xtAmnesiaFuncs\default.txvpck" />
+  </ItemGroup>
+</Project>

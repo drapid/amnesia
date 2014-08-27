@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="2r43112e2or_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:rqAmnesia:xtAmnesiaFuncs.TBooleanWordType">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.TBooleanWordType.bwYes" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.TBooleanWordType.bwEnabled" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.TBooleanWordType.bwTrue" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.TBooleanWordType.bwOn" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.TBooleanWordType.bwOne" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:rqAmnesia:xtAmnesiaFuncs.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.unLoadAddons()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_file_copy(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_setautomsg(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_getrnqpath(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_sys_doevents(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_file_append(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_regex_getmode(lua.lua_State)" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.mainScript" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.reLoadAddons()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_getconnectionstate(lua.lua_State)" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.rnqsys" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_regex_get(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.luaFillContactsTable(lua.lua_State,types.TIntegerDynArray)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_getautomsg(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_getchatuin(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.writeLineToFile(System.string,System.string)" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass._lua" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.httpsys" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.changeAddonPos(System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_setstatus(lua.lua_State)" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.luaLibrary" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.getModifiedMessage()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_disconnect(lua.lua_State)" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.Regexpr" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_sendautomsgreq(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_getcontacts(lua.lua_State)" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.regexsys" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.ProcMsgs()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_http_post(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.writeToFile(System.string,System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_regex_setmode(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_log_hide(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_sys_getver(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_setvisibility(lua.lua_State)" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.inisys" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.scriptEditor" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.httpParams" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.scriptDir" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_log_saveto(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.lua_at_panic(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_sys_enabledbg(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_senaddedyou(lua.lua_State)" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.userDirectory" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.luaScriptDirectory" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.LoadAddons(System.string,System.string)" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.logFileName" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_log_show(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_file_delete(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.registerSysToLua(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.callAddonFunction(System.string,System.Variant[])" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.modifiedMessage" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.httpClient" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_log_gettext(lua.lua_State)" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.syslib" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_http_clear(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.IsFileExists(System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_ini_get(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_http_addparam(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.BoolToStr(System.Boolean,xtAmnesiaFuncs.TBooleanWordType)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.luaStatusToSting(System.Byte)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.DebugLog(System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_sendmsg(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_getdisplayednamefor(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_log_clear(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_print(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_regex_replace(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.Explode(ref@System.string[],System.string,System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_http_get(lua.lua_State)" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.PLUG_VERSION" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.logsys" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.addonsList" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_sendmessage(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.checkIndyControls()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_sys_new(lua.lua_State)" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.httpCoockie" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_sys_gettime(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_quit(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_sys_isdbgmsgsenabled(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_getcontactinfo(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.RemoveFile(System.string)" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.BooleanWord" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_sys_disabledbg(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_regex_match(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.FindFiles(System.string,System.string,Classes.TStrings,System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_file_exists(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_ini_set(lua.lua_State)" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.filesys" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.writeLogToFile" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_getstatus(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_file_run(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.getTime(System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.isDebugMessagesEnabled()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_getuserpath(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_file_appendln(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_file_find(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.ReloadAmnesia()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_sys_wait(lua.lua_State)" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.enableDebugMessages" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_icq_connect(lua.lua_State)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:xtAmnesiaFuncs.@unitclass.l_sys_setoption(lua.lua_State)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:rqAmnesia:xtAmnesiaFuncs.AmnesiaPlugin">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.AmnesiaPlugin.name" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.AmnesiaPlugin.version" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.AmnesiaPlugin.code" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.AmnesiaPlugin.author" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:xtAmnesiaFuncs.AmnesiaPlugin.enabled" />
+    </reference>
+  </view>
+</nodeSet>

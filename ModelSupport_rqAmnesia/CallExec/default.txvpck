@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="gk5p7p0esjf_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:rqAmnesia:CallExec.ContactInfo">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:CallExec.ContactInfo.UIN" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:CallExec.ContactInfo.DisplayedName" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:CallExec.ContactInfo.Last" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:CallExec.ContactInfo.Status" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:CallExec.ContactInfo.Invisible" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:CallExec.ContactInfo.First" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:rqAmnesia:CallExec.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.callStr(System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_Disconnect()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_Connect()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseContactsSentString(System.Pointer,ref@System.Integer,ref@System.Integer,ref@types.TIntegerDynArray)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetStatus()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_SendContacts(System.Integer,System.Integer,types.TIntegerDynArray)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetAwayTime()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_SetStatus(System.Byte)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetUserTime()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseAddedYouGotString(System.Pointer,ref@System.Integer,ref@System.Integer,ref@System.TDateTime)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseAutoMessageRequestSentString(System.Pointer,ref@System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetTime()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_SetAutoMessage(System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseURLGotString(System.Pointer,ref@System.Integer,ref@System.Integer,ref@System.TDateTime,ref@System.string,ref@System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseAuthRequestGotString(System.Pointer,ref@System.Integer,ref@System.Integer,ref@System.TDateTime,ref@System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_SetVisibility(System.Byte)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseStatusChanged(System.Pointer,ref@System.Integer,ref@System.Byte,ref@System.Byte,ref@System.Boolean,ref@System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetConnectionState()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseAutoMessageSentString(System.Pointer,ref@System.Integer,ref@System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseContactsGotString(System.Pointer,ref@System.Integer,ref@System.Integer,ref@System.TDateTime,ref@types.TIntegerDynArray)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetAutoMessage()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseAutoMessageRequestGotString(System.Pointer,ref@System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseAuthDeniedSentString(System.Pointer,ref@System.Integer,ref@System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseVisibilityChanged(System.Pointer,ref@System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_AddToList(System.Integer,types.TIntegerDynArray)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetList(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseAutoMessageGotString(System.Pointer,ref@System.Integer,ref@System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseAddedYouSentString(System.Pointer,ref@System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetWindow(System.Integer,ref@windows.HWND,ref@System.Integer,ref@System.Integer,ref@System.Integer,ref@System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_SendMsg(System.Integer,System.Integer,System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseListRemoveString(System.Pointer,ref@System.Byte,ref@types.TIntegerDynArray)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_ChangeChatButton(System.Integer,Graphics.TIcon,System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseAuthSentString(System.Pointer,ref@System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseListAddString(System.Pointer,ref@System.Byte,ref@types.TIntegerDynArray)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetAndrqPath()" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:CallExec.@unitclass.outBuffer" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetChatUIN()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_RemoveFromList(System.Integer,types.TIntegerDynArray)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseMsgGotString(System.Pointer,ref@System.Integer,ref@System.Integer,ref@System.TDateTime,ref@System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetContactInfo(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetAndrqVersion()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetRnQVersion()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_SendAutoMessageRequest(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseUserinfoChanged(System.Pointer,ref@System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetUserPath()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_SendAddedYou(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_CreateChatButton(System.Pointer,Graphics.TIcon,System.string)" />
+      <reference referencedUin="delphi:e_field:src:rqAmnesia:CallExec.@unitclass.callback" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetCurrentUser()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_Quit()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetAndrqVersionAsString()" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseMsgSentString(System.Pointer,ref@System.Integer,ref@System.Integer,ref@System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.str2comm(System.string)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ__ParseInitString(System.Pointer,ref@plugin.TpluginFun,ref@System.Integer,ref@System.string,ref@System.string,ref@System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_DeleteChatButton(ref@System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:rqAmnesia:CallExec.@unitclass.RQ_GetDisplayedName(System.Integer)" />
+    </reference>
+  </view>
+</nodeSet>
